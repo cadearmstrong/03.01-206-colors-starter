@@ -73,10 +73,15 @@ footer {
 
   #column-3 {
     background-color: blue;
+    width: 100%;
   }
 
   footer {
     background-color: gray;
+  }
+
+  .col-3 {
+    width: 50%;
   }
 
 }
@@ -85,23 +90,28 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: yellow;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: orange;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: teal;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: pink;
+    width: 33.3%;
   }
 
   footer {
-    background-color: ;
+    background-color: aqua;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
 
 }
